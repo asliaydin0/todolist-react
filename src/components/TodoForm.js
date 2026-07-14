@@ -1,7 +1,10 @@
 import React from 'react'
 
-export const ToDoForm = () => {
+export const TodoForm = () => {
   return (
-    <div>ToDoForm</div>
+    <form className="TodoForm">
+        <input type="text" className="todo-input" placeholder="Bugünki görevlerin ne?" />
+        <button type="submit" className="todo-btn"></button>
+    </form>
   )
 }
